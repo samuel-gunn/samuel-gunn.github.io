@@ -1,0 +1,67 @@
+---
+layout: null
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <meta property="og:title" content="{{ site.title }}">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ site.url }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+
+    <div class="page">
+      <header class="intro">
+        <div class="intro-copy">
+          <h1>Sam Gunn</h1>
+          <!-- Replace this paragraph with your specific affiliations and interests. -->
+          <p class="bio">
+            I&rsquo;m Sam Gunn. My work spans research and academic writing, and
+            this site collects my current interests and publications. I&rsquo;ll add
+            more here about the institutions, collaborators, and questions that
+            shape my work.
+          </p>
+        </div>
+
+        <img
+          class="portrait"
+          src="{{ '/images/soda-2.jpeg' | relative_url }}"
+          alt="Portrait of Sam Gunn"
+          width="1362"
+          height="1186"
+        >
+      </header>
+
+      <main id="content">
+        <section id="papers" aria-labelledby="papers-heading">
+          <h2 id="papers-heading">Papers</h2>
+          <ol class="entries">
+            <li>
+              <h3 class="paper-title">Paper title</h3>
+              <p class="citation">Author list. Journal or conference, Year.</p>
+            </li>
+            <li>
+              <h3 class="paper-title">Paper title</h3>
+              <p class="citation">Author list. Journal or conference, Year.</p>
+            </li>
+            <li>
+              <h3 class="paper-title">Paper title</h3>
+              <p class="citation">Author list. Journal or conference, Year.</p>
+            </li>
+          </ol>
+        </section>
+      </main>
+
+    </div>
+  </body>
+</html>
