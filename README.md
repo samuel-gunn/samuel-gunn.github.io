@@ -2,8 +2,7 @@
 Sam Gunn's personal website
 
 <img
-  src="/images/profile.jpg"
-  alt="Your Name"
+  src="/images/soda-2.jpg"
   width="220"
   style="border-radius: 50%;"
 />
