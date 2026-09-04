@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.22)  4 SEP 2026 10:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.22)  4 SEP 2026 11:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -270,7 +270,18 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 41.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 41.
-LaTeX Font Info:    Trying to load font information for TS1+pnc on input line 91.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 42.
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `pcr' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [1
+
+{/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/base/8r.enc}]
+LaTeX Font Info:    Trying to load font information for TS1+pnc on input line 107.
  (/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/ts1pnc.fd
 File: ts1pnc.fd 2001/06/04 font definitions for TS1/pnc.
 )
@@ -278,27 +289,25 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `pnc' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [1
-
-{/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/base/8r.enc}] [2]
+ [2] [3]
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 11200 strings out of 467525
- 175382 string characters out of 5418982
- 637287 words of memory out of 5000000
- 39912 multiletter control sequences out of 15000+600000
- 645848 words of font info for 106 fonts, out of 8000000 for 9000
+ 11260 strings out of 467525
+ 176174 string characters out of 5418982
+ 638287 words of memory out of 5000000
+ 39947 multiletter control sequences out of 15000+600000
+ 648026 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,79p,1033b,639s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2026/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on main.pdf (2 pages, 57182 bytes).
+ 75i,8n,79p,1033b,644s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2026/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
+Output written on main.pdf (3 pages, 71617 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
- 69 compressed objects within 1 object stream
- 27 named destinations out of 1000 (max. 500000)
- 26113 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 99 PDF objects out of 1000 (max. 8388607)
+ 85 compressed objects within 1 object stream
+ 21 named destinations out of 1000 (max. 500000)
+ 26625 words of extra memory for PDF output out of 29859 (max. 10000000)
 

@@ -1,8 +1,10 @@
 # Fdb version 4
-["pdflatex"] 1788530876.22907 "/Users/gunn/projects/website/CV/main.tex" "main.pdf" "main" 1788530876.64653 0
-  "/Users/gunn/projects/website/CV/main.tex" 1788530876.07144 6842 2e74f8fced00530e6da7549c2294b75f ""
+["pdflatex"] 1788534695.38303 "/Users/gunn/projects/website/CV/main.tex" "main.pdf" "main" 1788534695.73398 0
+  "/Users/gunn/projects/website/CV/main.tex" 1788534695.2253 11060 62a41dc380712de88996acf6dc9fcc25 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "/usr/local/texlive/2026/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm" 1136768653 1292 bd42be2f344128bff6d35d98474adfe3 ""
+  "/usr/local/texlive/2026/texmf-dist/fonts/tfm/adobe/courier/pcrr8t.tfm" 1136768653 1384 4632f5e54900a7dadbb83f555bc61e56 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/adobe/ncntrsbk/pncb8r.tfm" 1136768653 3220 7b5d1a9569a08754f1bdfbc1c7ad8dbd ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/adobe/ncntrsbk/pncb8t.tfm" 1136768653 4708 5672efb2ed6c1b68de999c866a8495e6 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/adobe/ncntrsbk/pncr8c.tfm" 1136768653 1336 990dabf7f4b96ad32afebd2a44ddc16b ""
@@ -12,9 +14,11 @@
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/adobe/ncntrsbk/pncri8r.tfm" 1136768653 4148 d6b2047022c721a25d78978eed00b200 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/adobe/ncntrsbk/pncri8t.tfm" 1136768653 6064 8a12cb133dbc46cc2aebc9327349f0ba ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1136768653 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
+  "/usr/local/texlive/2026/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb" 1136849748 45758 19968a0990191524e34e1994d4a31cb6 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb" 1136849748 48864 96901a485f69890f3d64b5f7b7218eb3 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb" 1136849748 46830 624e2afdf1987af1003e0fa8f7d5d313 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/type1/urw/ncntrsbk/uncri8a.pfb" 1136849748 45832 e347aaf9b53b931665ec33b7dde3a94c ""
+  "/usr/local/texlive/2026/texmf-dist/fonts/vf/adobe/courier/pcrr8t.vf" 1136768653 2184 8475af1b9cfa983db5f46f5ed4b8f9f7 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/vf/adobe/ncntrsbk/pncb8t.vf" 1136768653 2352 364e27135b71dfb69f651531b556c009 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/vf/adobe/ncntrsbk/pncr8c.vf" 1136768653 3556 d62234d895fc58316ef3155c185e700f ""
   "/usr/local/texlive/2026/texmf-dist/fonts/vf/adobe/ncntrsbk/pncr8t.vf" 1136768653 2348 ea2f0e84361777bc0fecbbff98dffa71 ""
@@ -57,6 +61,7 @@
   "/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/microtype.sty" 1772383374 102845 043c56602c7d94c8a716319df1af5479 ""
   "/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-cmr.cfg" 1772226603 22906 2122f73c0e7dc828f24240c2422dfe25 ""
   "/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/newcent.sty" 1586716065 866 9f62604e40de109c6add3d7e79d8c2f8 ""
+  "/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/t1pcr.fd" 1137110629 798 d5895e9edc628f2be019beb2c0ec66df ""
   "/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/t1pnc.fd" 1137110629 774 b10df6e7f1605f2a2bda62b371c275cf ""
   "/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/ts1pnc.fd" 1137110629 619 c83ee1fc7a364c0a6c034c4ebc2b8795 ""
   "/usr/local/texlive/2026/texmf-dist/tex/latex/refcount/refcount.sty" 1576624809 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
@@ -69,7 +74,7 @@
   "/usr/local/texlive/2026/texmf.cnf" 1774209515 577 648cd9f92f9c0eac486f4c71c85cfbbe ""
   "main.aux" 1788529020.28385 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
   "main.out" 1788529020.16928 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "main.tex" 1788530876.07144 6842 2e74f8fced00530e6da7549c2294b75f ""
+  "main.tex" 1788534695.2253 11060 62a41dc380712de88996acf6dc9fcc25 ""
   "res.cls" 1788527937.74835 25066 8ec1e15ab4c53340bc92863668c7be49 ""
   (generated)
   "main.aux"
