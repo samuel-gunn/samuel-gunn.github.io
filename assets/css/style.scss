@@ -131,7 +131,11 @@ h2 {
   list-style: none;
 }
 
-.entries li + li {
+.entries > li {
+  position: relative;
+}
+
+.entries > li + li {
   margin-top: 2rem;
   padding-top: 2rem;
   border-top: 1px solid var(--rule);
@@ -160,10 +164,21 @@ h2 {
 }
 
 .paper-title {
+  padding-right: 9.5rem;
   margin-bottom: 0;
   font-size: 1.1rem;
   font-weight: 600;
   line-height: 1.4;
+}
+
+.paper-title a {
+  color: inherit;
+  text-decoration-color: var(--accent);
+}
+
+.paper-title a:hover,
+.paper-title a:focus-visible {
+  color: var(--accent);
 }
 
 .authors {
@@ -183,6 +198,122 @@ h2 {
   color: var(--accent);
   font-size: 0.95rem;
   line-height: 1.45;
+}
+
+.paper-abstract {
+  margin-top: 0;
+}
+
+.paper-abstract[open] {
+  margin-top: 0.8rem;
+}
+
+.paper-abstract summary {
+  position: absolute;
+  top: 0.1rem;
+  right: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  color: var(--accent);
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  list-style: none;
+}
+
+.entries > li + li .paper-abstract summary {
+  top: 2.1rem;
+}
+
+.paper-abstract summary::-webkit-details-marker {
+  display: none;
+}
+
+.paper-abstract summary:hover .abstract-label,
+.paper-abstract summary:focus-visible .abstract-label {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+.paper-abstract summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 0.25rem;
+}
+
+.abstract-label-open {
+  display: none;
+}
+
+.paper-abstract[open] .abstract-label-closed {
+  display: none;
+}
+
+.paper-abstract[open] .abstract-label-open {
+  display: inline;
+}
+
+.abstract-chevron {
+  width: 0.45rem;
+  height: 0.45rem;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: translateY(-0.1rem) rotate(45deg);
+  transition: transform 150ms ease;
+}
+
+.paper-abstract[open] .abstract-chevron {
+  transform: translateY(0.1rem) rotate(225deg);
+}
+
+.abstract-copy {
+  margin-top: 0;
+  padding-left: 1rem;
+  border-left: 2px solid var(--rule);
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.math {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.math-blackboard {
+  font-family: "STIX Two Math", "Cambria Math", "Times New Roman", serif;
+  font-style: normal;
+}
+
+.abstract-copy p {
+  margin-bottom: 0;
+}
+
+.abstract-copy p + p {
+  margin-top: 0.75rem;
+}
+
+.abstract-copy ul,
+.abstract-copy ol {
+  margin: 0.75rem 0 0;
+  padding-left: 1.25rem;
+}
+
+.abstract-copy li + li {
+  margin-top: 0.5rem;
+}
+
+.abstract-copy ul + p,
+.abstract-copy ol + p {
+  margin-top: 0.75rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .abstract-chevron {
+    transition: none;
+  }
 }
 
 @media (max-width: 640px) {
@@ -217,5 +348,25 @@ h2 {
   .paper-group {
     grid-template-columns: 1fr;
     gap: 1.5rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .paper-title {
+    padding-right: 0;
+  }
+
+  .paper-abstract,
+  .paper-abstract[open] {
+    margin-top: 0.55rem;
+  }
+
+  .paper-abstract summary {
+    position: static;
+    justify-content: flex-end;
+  }
+
+  .abstract-copy {
+    margin-top: 0.8rem;
   }
 }

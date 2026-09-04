@@ -1,0 +1,18 @@
+<!-- Source: https://eprint.iacr.org/2025/2222 -->
+<p>Prior constructions of pseudorandom codes are all vulnerable to quasipolynomial-time distinguishing attacks. We introduce a new cryptographic assumption, called <i>permuted codes</i>, which can be used to build pseudorandom codes that are plausibly subexponentially secure. For sufficiently large block lengths&mdash;such as those which arise in image watermarks&mdash;this can significantly improve the practical security.</p>
+
+<p>The permuted codes conjecture says that, for any linear code <span class="math"><var>C</var></span> over <span class="math">(<span class="math-blackboard">&#x1D53D;</span><sub><var>q</var></sub>)<sup><var>n</var></sup></span> with dual distance <span class="math">poly(<var>n</var>)</span> and any <span class="math"><var>T</var> = poly(<var>n</var>)</span>, the following distribution is pseudorandom.</p>
+
+<ol>
+  <li>Sample an index permutation <span class="math"><var>&pi;</var> : [<var>n</var>] &rarr; [<var>n</var>]</span> and alphabet permutations <span class="math"><var>&pi;</var><sub>1</sub>, &hellip;, <var>&pi;</var><sub><var>n</var></sub> : <span class="math-blackboard">&#x1D53D;</span><sub><var>q</var></sub> &rarr; <span class="math-blackboard">&#x1D53D;</span><sub><var>q</var></sub></span>.</li>
+  <li>Sample random codewords <span class="math"><var>c</var><sub>1</sub>, &hellip;, <var>c</var><sub><var>T</var></sub></span>&ensp;from <span class="math"><var>C</var></span>. For each <span class="math"><var>i</var></span>, let <span class="math"><var>&#x109;</var><sub><var>i</var></sub></span> be the string obtained from <span class="math"><var>c</var><sub><var>i</var></sub></span> by permuting the indices according to <span class="math"><var>&pi;</var></span> and the alphabet at index <span class="math"><var>j</var></span> according to <span class="math"><var>&pi;</var><sub><var>j</var></sub></span>.</li>
+  <li>Output <span class="math"><var>E</var>(<var>&#x109;</var><sub>1</sub>), &hellip;, <var>E</var>(<var>&#x109;</var><sub><var>T</var></sub>)</span>, where <span class="math"><var>E</var>(<var>x</var>)</span> outputs <span class="math"><var>x</var></span> with probability <span class="math">1 &minus; <var>p</var></span> and a random string from <span class="math"><span class="math-blackboard">&#x1D53D;</span><sub><var>q</var></sub><sup><var>n</var></sup></span> otherwise.</li>
+</ol>
+
+<p>We provide several lines of evidence for our permuted codes conjecture:</p>
+
+<ul>
+  <li>It is implied by the <i>permuted puzzles</i> conjecture which was used previously to construct doubly efficient private information retrieval.</li>
+  <li>Permuted codes fool simple distinguishers including read-once branching programs.</li>
+  <li>Natural attacks on the conjecture fail.</li>
+</ul>

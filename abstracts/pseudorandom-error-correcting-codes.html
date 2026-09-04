@@ -1,0 +1,8 @@
+<!-- Source: https://eprint.iacr.org/2024/235 -->
+<p>We construct pseudorandom error-correcting codes (or simply pseudorandom codes), which are error-correcting codes with the property that any polynomial number of codewords are pseudorandom to any computationally-bounded adversary. Efficient decoding of corrupted codewords is possible with the help of a decoding key. We build pseudorandom codes that are robust to substitution and deletion errors, where pseudorandomness rests on standard cryptographic assumptions.</p>
+
+<p>Specifically, pseudorandomness is based on either 2<sup>O(&radic;<i>n</i>)</sup>-hardness of LPN, or polynomial hardness of LPN and the planted XOR problem at low density. As our primary application of pseudorandom codes, we present an undetectable watermarking scheme for outputs of language models that is robust to cropping and a constant rate of random substitutions and deletions.</p>
+
+<p>The watermark is undetectable in the sense that any number of samples of watermarked text are computationally indistinguishable from text output by the original model. This is the first undetectable watermarking scheme that can tolerate a constant rate of errors. Our second application is to steganography, where a secret message is hidden in innocent-looking content. We present a constant-rate stateless steganography scheme with robustness to a constant rate of substitutions.</p>
+
+<p>Ours is the first stateless steganography scheme with provable steganographic security and any robustness to errors.</p>

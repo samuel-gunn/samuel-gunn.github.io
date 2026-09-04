@@ -1,0 +1,8 @@
+<!-- Source: https://arxiv.org/abs/2604.07328 -->
+<p>How does the choice of training data influence an AI model? This broad question is of central importance to interpretability, privacy, and basic science. At its technical core is the data deletion problem: after a reasonable amount of precomputation, quickly predict how the model would behave in a given situation if a given subset of training data had been excluded from the learning algorithm.</p>
+
+<p>We present a data deletion scheme capable of predicting model outputs with vanishing error <i>&epsilon;</i> and failure probability <i>&delta;</i> in the deep learning setting. Our precomputation and prediction algorithms are only <i>O&#771;</i>(log(1/<i>&delta;</i>)/<i>&epsilon;</i><sup>2</sup>) factors slower than regular training and inference, respectively. The storage requirements are those of <i>O&#771;</i>(log(1/<i>&delta;</i>)/<i>&epsilon;</i><sup>2</sup>) models.</p>
+
+<p>Our proof is based on an assumption that we call stability. In contrast to the assumptions made by prior work, stability appears to be fully compatible with learning powerful AI models. In support of this, we show that stability is satisfied in a minimal set of experiments with microgpt. Our code is available at <a href="https://github.com/samuel-gunn/microgpt-sketch">this URL</a>.</p>
+
+<p>At a technical level, our work is based on a new method for locally sketching an arithmetic circuit by computing higher-order derivatives in random complex directions. Forward-mode automatic differentiation allows cheap computation of these derivatives.</p>
