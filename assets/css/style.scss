@@ -98,6 +98,19 @@ h1 {
   font-size: 1.05rem;
 }
 
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.65rem;
+  margin-top: 1.25rem;
+  font-size: 0.95rem;
+  font-style: normal;
+}
+
+.contact-separator {
+  color: var(--muted);
+}
+
 section {
   display: grid;
   grid-template-columns: 9rem 1fr;
