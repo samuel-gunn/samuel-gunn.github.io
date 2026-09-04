@@ -97,6 +97,10 @@ h1 {
   font-size: 1.05rem;
 }
 
+.bio + .bio {
+  margin-top: 1rem;
+}
+
 .contact {
   display: flex;
   flex-wrap: wrap;
