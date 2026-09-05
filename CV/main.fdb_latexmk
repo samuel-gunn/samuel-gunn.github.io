@@ -1,6 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1788574206.68901 "/Users/gunn/projects/website/CV/main.tex" "main.pdf" "main" 1788574207.0809 0
-  "/Users/gunn/projects/website/CV/main.tex" 1788574206.53422 11039 a3406725d1d76078cf1950c34917639c ""
+["pdflatex"] 1788631062.95076 "main.tex" "main.pdf" "main" 1788631063.29495 0
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm" 1136768653 1292 bd42be2f344128bff6d35d98474adfe3 ""
@@ -74,7 +73,7 @@
   "/usr/local/texlive/2026/texmf.cnf" 1774209515 577 648cd9f92f9c0eac486f4c71c85cfbbe ""
   "main.aux" 1788529020.28385 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
   "main.out" 1788529020.16928 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "main.tex" 1788574206.53422 11039 a3406725d1d76078cf1950c34917639c ""
+  "main.tex" 1788631004.53518 10899 70214f8470249a1ce7e6547907b5942b ""
   "res.cls" 1788527937.74835 25066 8ec1e15ab4c53340bc92863668c7be49 ""
   (generated)
   "main.aux"
