@@ -69,10 +69,12 @@ a:focus-visible {
 
 .portrait {
   display: block;
-  width: 100%;
+  width: calc(100% + 4rem);
+  max-width: none;
   height: auto;
   border: 1px solid var(--rule);
   border-radius: 0;
+  transform: translateX(-2rem);
 }
 
 h1,
@@ -88,6 +90,19 @@ h1 {
   font-weight: 600;
   letter-spacing: -0.055em;
   line-height: 0.95;
+}
+
+.profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 0.35rem;
+  margin: 0.65rem 0 0;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.profile-links a + a {
+  margin-left: 3rem;
 }
 
 .bio {
@@ -316,6 +331,13 @@ h2 {
   }
 }
 
+@media (min-width: 641px) and (max-width: 943px) {
+  .portrait {
+    width: calc(100% + 3rem);
+    transform: translateX(-1.5rem);
+  }
+}
+
 @media (max-width: 640px) {
   body {
     font-size: 17px;
@@ -333,7 +355,8 @@ h2 {
   }
 
   .portrait {
-    width: min(100%, 260px);
+    width: min(100%, 290px);
+    transform: none;
   }
 
   section {
