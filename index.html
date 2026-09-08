@@ -44,20 +44,20 @@ layout: null
         </div>
 
         <img
-          class="portrait"
-          src="{{ '/images/soda-2.jpeg' | relative_url }}"
-          alt="Portrait of Sam Gunn"
-          width="1362"
-          height="1186"
+        class="portrait"
+        src="{{ '/images/soda-2.jpeg' | relative_url }}"
+        alt="Portrait of Sam Gunn"
+        width="1362"
+        height="1186"
         >
       </header>
-
+      
       <main id="content">
         <section id="papers" aria-labelledby="papers-heading">
           <h2 id="papers-heading">Selected work</h2>
           <div class="paper-groups">
             <div class="paper-group">
-              <h3 class="paper-group-title">AI safety and security</h3>
+              <h3 class="paper-group-title">AI safety</h3>
               <ul class="entries">
                 <li>
                   <p class="paper-title"><a href="https://arxiv.org/abs/2604.07328">How to sketch a learning algorithm</a></p>
@@ -71,6 +71,53 @@ layout: null
                     </summary>
                     <div class="abstract-copy">
                       {% include_relative abstracts/how-to-sketch-a-learning-algorithm.html %}
+                    </div>
+                  </details>
+                </li>
+                <li>
+                  <p class="paper-title"><a href="https://eprint.iacr.org/2023/763">Undetectable watermarks for language models</a></p>
+                  <p class="authors">Miranda Christ, <strong>Sam Gunn</strong>, and Or Zamir</p>
+                  <p class="citation">COLT 2024, RWC 2024</p>
+                  <details class="paper-abstract">
+                    <summary>
+                      <span class="abstract-label abstract-label-closed">Expand abstract</span>
+                      <span class="abstract-label abstract-label-open">Collapse abstract</span>
+                      <span class="abstract-chevron" aria-hidden="true"></span>
+                    </summary>
+                    <div class="abstract-copy">
+                      {% include_relative abstracts/undetectable-watermarks-for-language-models.html %}
+                    </div>
+                  </details>
+                </li>
+                <li>
+                  <p class="paper-title"><a href="https://eprint.iacr.org/2024/235">Pseudorandom error-correcting codes</a></p>
+                  <p class="authors">Miranda Christ and <strong>Sam Gunn</strong></p>
+                  <p class="citation">CRYPTO 2024</p>
+                  <p class="paper-note">Featured in <a href="https://simons.berkeley.edu/media/28058/download?inline#page=7">Polynomial Times</a>.</p>
+                  <details class="paper-abstract">
+                    <summary>
+                      <span class="abstract-label abstract-label-closed">Expand abstract</span>
+                      <span class="abstract-label abstract-label-open">Collapse abstract</span>
+                      <span class="abstract-chevron" aria-hidden="true"></span>
+                    </summary>
+                    <div class="abstract-copy">
+                      {% include_relative abstracts/pseudorandom-error-correcting-codes.html %}
+                    </div>
+                  </details>
+                </li>
+                <li>
+                  <p class="paper-title"><a href="https://eprint.iacr.org/2024/1840">Ideal pseudorandom codes</a></p>
+                  <p class="authors">Omar Alrabiah, Prabhanjan Ananth, Miranda Christ, Yevgeniy Dodis, and <strong>Sam Gunn</strong></p>
+                  <p class="citation">STOC 2025</p>
+                  <p class="paper-note">Invited to the SICOMP Special Issue for STOC 2025.</p>
+                  <details class="paper-abstract">
+                    <summary>
+                      <span class="abstract-label abstract-label-closed">Expand abstract</span>
+                      <span class="abstract-label abstract-label-open">Collapse abstract</span>
+                      <span class="abstract-chevron" aria-hidden="true"></span>
+                    </summary>
+                    <div class="abstract-copy">
+                      {% include_relative abstracts/ideal-pseudorandom-codes.html %}
                     </div>
                   </details>
                 </li>
@@ -122,22 +169,6 @@ layout: null
                   </details>
                 </li>
                 <li>
-                  <p class="paper-title"><a href="https://eprint.iacr.org/2024/1840">Ideal pseudorandom codes</a></p>
-                  <p class="authors">Omar Alrabiah, Prabhanjan Ananth, Miranda Christ, Yevgeniy Dodis, and <strong>Sam Gunn</strong></p>
-                  <p class="citation">STOC 2025</p>
-                  <p class="paper-note">Invited to the SICOMP Special Issue for STOC 2025.</p>
-                  <details class="paper-abstract">
-                    <summary>
-                      <span class="abstract-label abstract-label-closed">Expand abstract</span>
-                      <span class="abstract-label abstract-label-open">Collapse abstract</span>
-                      <span class="abstract-chevron" aria-hidden="true"></span>
-                    </summary>
-                    <div class="abstract-copy">
-                      {% include_relative abstracts/ideal-pseudorandom-codes.html %}
-                    </div>
-                  </details>
-                </li>
-                <li>
                   <p class="paper-title"><a href="https://arxiv.org/abs/2411.18479">SoK: Watermarking for AI-generated content</a></p>
                   <p class="authors">Xuandong Zhao, <strong>Sam Gunn</strong>, Miranda Christ, Jaiden Fairoze, Andres Fabrega, Nicholas Carlini, Sanjam Garg, Sanghyun Hong, Milad Nasr, Florian Tramer, et al.</p>
                   <p class="citation">IEEE S&amp;P 2025</p>
@@ -149,37 +180,6 @@ layout: null
                     </summary>
                     <div class="abstract-copy">
                       {% include_relative abstracts/sok-watermarking-for-ai-generated-content.html %}
-                    </div>
-                  </details>
-                </li>
-                <li>
-                  <p class="paper-title"><a href="https://eprint.iacr.org/2024/235">Pseudorandom error-correcting codes</a></p>
-                  <p class="authors">Miranda Christ and <strong>Sam Gunn</strong></p>
-                  <p class="citation">CRYPTO 2024</p>
-                  <p class="paper-note">Featured in <a href="https://simons.berkeley.edu/media/28058/download?inline#page=7">Polynomial Times</a>.</p>
-                  <details class="paper-abstract">
-                    <summary>
-                      <span class="abstract-label abstract-label-closed">Expand abstract</span>
-                      <span class="abstract-label abstract-label-open">Collapse abstract</span>
-                      <span class="abstract-chevron" aria-hidden="true"></span>
-                    </summary>
-                    <div class="abstract-copy">
-                      {% include_relative abstracts/pseudorandom-error-correcting-codes.html %}
-                    </div>
-                  </details>
-                </li>
-                <li>
-                  <p class="paper-title"><a href="https://eprint.iacr.org/2023/763">Undetectable watermarks for language models</a></p>
-                  <p class="authors">Miranda Christ, <strong>Sam Gunn</strong>, and Or Zamir</p>
-                  <p class="citation">COLT 2024, RWC 2024</p>
-                  <details class="paper-abstract">
-                    <summary>
-                      <span class="abstract-label abstract-label-closed">Expand abstract</span>
-                      <span class="abstract-label abstract-label-open">Collapse abstract</span>
-                      <span class="abstract-chevron" aria-hidden="true"></span>
-                    </summary>
-                    <div class="abstract-copy">
-                      {% include_relative abstracts/undetectable-watermarks-for-language-models.html %}
                     </div>
                   </details>
                 </li>
