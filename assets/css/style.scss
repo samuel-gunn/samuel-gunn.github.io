@@ -140,6 +140,18 @@ h2 {
   line-height: 1;
 }
 
+#papers-heading {
+  margin-bottom: 1rem;
+}
+
+.papers-order-note {
+  margin-bottom: 3.5rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+  font-style: italic;
+  line-height: 1.45;
+}
+
 .entries {
   margin: 0;
   padding: 0;
@@ -366,6 +378,10 @@ h2 {
   h2 {
     margin-bottom: 2.75rem;
     padding-bottom: 1.5rem;
+  }
+
+  .papers-order-note {
+    margin-bottom: 2.75rem;
   }
 
   .paper-group {
