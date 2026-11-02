@@ -31,6 +31,8 @@ INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/microtype/microtype-pdftex.de
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/microtype/microtype.cfg
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/microtype/microtype.cfg
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/microtype/microtype.cfg
+INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/needspace/needspace.sty
+INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/needspace/needspace.sty
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/xcolor/xcolor.sty
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/xcolor/xcolor.sty
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/graphics-cfg/color.cfg
